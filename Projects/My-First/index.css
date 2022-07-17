@@ -1,0 +1,114 @@
+
+body{
+    font-family: Helvetica;
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+
+    
+}
+
+
+header{
+    font-size: 20px;
+    
+    position: fixed;
+    top: 0px;
+    background-color: #360703;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+    left: 0px;
+}
+nav li{
+    display: inline-block;
+    padding: 30px;
+    z-index: 1;
+    color: 	#acbcbb;
+    
+}
+main{
+    display: relative;
+    text-align: center;
+  
+    
+}
+main h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 80px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+  }
+
+.container {
+    height: 800px;
+    
+    width:100%;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*nfrd6p*_ga*NzU0Mzc1NzM1LjE2NTY2MDA1ODc.*_ga_3LRZM6TM9L*MTY1Nzk5NTA1NS40MS4xLjE2NTc5OTU2MzcuMzI.") ;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+.supporting{
+    text-align: center;
+    width: 300px;
+    margin: 0px auto;
+    
+}
+
+
+.supporting .content{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+
+
+
+}
+
+
+
+.price{
+    font-weight: 600;
+    color: blue; 
+}
+
+
+.content{
+    position: relative;
+    width: 300px;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+.content img{
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+
+.btn-main{
+    background-color: #302627;
+    color: #acbcbb;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 0.75;
+
+    
+}
