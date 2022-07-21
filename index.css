@@ -1,114 +1,136 @@
-
-body{
-    font-family: Helvetica;
-    width: 100%;
-    text-align: center;
-    margin: 0px auto;
-
-    
-}
-
-
-header{
-    font-size: 20px;
-    
-    position: fixed;
-    top: 0px;
-    background-color: #360703;
-    width: 100%;
-    text-align: center;
-    z-index: 3;
-    left: 0px;
-}
-nav li{
-    display: inline-block;
-    padding: 30px;
-    z-index: 1;
-    color: 	#acbcbb;
-    
-}
-main{
-    display: relative;
-    text-align: center;
-  
-    
-}
-main h1 {
-    color: rgb(255, 255, 255);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 50px;
-    margin-top: 80px;
-    padding-top: 80px;
-    margin-bottom: 80px;
-    text-transform: uppercase;
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('webfont.eot'); /* IE9 Compat Modes */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
   }
 
-.container {
-    height: 800px;
-    
-    width:100%;
-    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*nfrd6p*_ga*NzU0Mzc1NzM1LjE2NTY2MDA1ODc.*_ga_3LRZM6TM9L*MTY1Nzk5NTA1NS40MS4xLjE2NTc5OTU2MzcuMzI.") ;
+body  {
+    font-family: monospace;
+    width: 100%;
+    overflow-x: hidden;
 
+}
+header {
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    
+    
+}
+header li{
+    display: inline;
+    font-size: large;
+    align-items: center;
+    width: 50px;
+    padding-left: 20px;
+
+
+}
+
+
+header img{
+    max-width: 75px;
+    max-height: 50px;
+    background-color: hsl(241, 89%, 90%,0.0);
+    box-sizing: content-box;
+    margin-left: 5px;
+
+}
+h1 {
+    font-weight: bold;
+    color: azure;
+    background-color: hsl(0deg 0% 0% / 75%);
+}
+
+
+
+main .container {
+    height: 400px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    object-fit: cover;
 
 }
-
-.supporting{
-    text-align: center;
-    width: 300px;
-    margin: 0px auto;
-    
-}
-
-
-.supporting .content{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    display: block;
-    margin-top: 50px;
-
-
-
-}
-
-
-
-.price{
-    font-weight: 600;
-    color: blue; 
-}
-
-
-.content{
+.intro {
     position: relative;
-    width: 300px;
-    margin: 0px auto;
-    box-sizing: content-box;
-}
-.content img{
-    position: relative;
-    display: block;
-    margin: 0px auto;
-    box-sizing: content-box;
+    top: 160px;
+    margin-left: 10px;
 }
 
-.btn-main{
-    background-color: #302627;
-    color: #acbcbb;
+.intro a{
+    background-color: hsl(0deg 0% 0% / 75%);
+    color: rgb(0 255 22);
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 18px;
     letter-spacing: 1.3px;
-    padding: 16px 40px;
+    padding: 5px 5px;
     text-decoration: none;
     text-transform: uppercase;
-    opacity: 0.75;
+    opacity: 0.9;
+    margin-top: 30px;
+    margin-left: 80px;
+    border: 1px solid rgb(187, 189, 189);
+
+}
+h2{
+    position: relative;
+    left: 0px;
+    width: 100%;
+    font-weight: bold;
+    color: azure;
+    background-color: hsl(0deg 0% 0% / 75%);
+}
 
     
+
+.sec {
+    position: relative;
+    margin: auto 10px;
+  
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+    border: 1px solid black;
+    width:auto;
+}
+table td{
+    border: 1px solid rgb(136, 135, 135);
+    padding: 5px;
+}
+table th{
+    border: 3px solid gray;
+}
+
+    
+
+footer {
+    position: relative;
+    background-color: rgb(211, 211, 211);
+    
+    display: flex;
+    top: 30px;
+    
+}
+footer .inf{
+    display: inline-flex;
 }

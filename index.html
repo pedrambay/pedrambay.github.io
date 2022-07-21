@@ -1,64 +1,153 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dasmoto</title>
+        <title>My Cheat Sheet</title>
         <link rel="stylesheet" href="./index.css">
     </head>
-    
+
     <body>
+
         <header>
-            <nav>
-                <ul>
-                    <a href=""><li>Home</li></a>
-                    <a href="#brushes"><li>Brushes</li></a>
-                    <a href="#frames"><li>Frames</li></a>
-                    <a href="#paint"><li>Paint</li></a>
-                </ul>
-            </nav>
-        </header>
-        
-        
-        <main>
-            
             <div class="container">
                 
-                <div class="cons">
-                    <h1>Dasmoto's Arts & Crafts</h1>
+                <div class="logo">
+                    <a href="#"><img src="https://cdn.freebiesupply.com/logos/large/2x/random-logo-png-transparent.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul>
+                        <a href="#"><li>Home</li></a>
+                        <a href="#html"><li>HTML</li></a>
+                        <a href="#css"><li>CSS</li></a>
+                    </ul>
+                </nav>
+            </div>
 
-                    <a href="https://www.ramtracking.com/ca?utm_source=google-ads&utm_medium=ppc&utm_campaign=brand_2022&utm_agid=137354547765&utm_term=ram%20tracking&creative=610598615694&device=c&placement=&gclid=CjwKCAjw5s6WBhA4EiwACGncZUbcZ57FqQAiYZrKc3ycGRcRFAbmTOFj-ntO0gOMKgeXE46tzFaOWhoCyNIQAvD_BwE" class="btn-main"> Get Started </a>
-
-                    
-                    
+        </header>
+        
+        <!-- Website intro demo request -->
+        <main>
+            <div class="container">
+                <div class="intro">
+                    <h1>&lt;My&gt; WebDev CheatSheet</h1>
+                    <a href="#" class="but"> Book a demo </a>
                 </div>
             </div>
+
         </main>
-        <div class="supporting">
 
-            <div class="cont">
+        <div class="sec">
 
-                <section class="content" id="brushes">
-                    <img src="https://content.codecademy.com/courses/freelance-1/unit-2/hacksaw.jpeg" alt="">
-                    <h2>Brushes</h2>
-                    <p>Made of highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes. <span class="price">Starting at $3.00 / Brush</span> </p>
-                </section>
-                <section class="content" id="frames">
-                    <img src="https://content.codecademy.com/courses/freelance-1/unit-2/frames.jpeg" alt="">
-                    <h2>Art Frames (assorted)</h2>
-                    <p>Assorted frames made of different material, including MDF, birchwood, and PDE. Select frames can be sanded and painted to your needs. <span class="price">Starting at $2.00 / frame</span></p>
-                </section>
-                <section class="content" id="Paint">
-                    <img src="https://content.codecademy.com/courses/freelance-1/unit-2/finnish.jpeg" alt="">
-                    <h2>Art Clean Finnish Paint</h2>
-                    <p>Imported paint from finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). Clean finnish paint microbinds to canvas, increasing the finish and longevity of any artwork. <span class="price">Starting at $5.00 / tube</span></p>
-                </section>
+            <div id="html">
+                <h2>HTML</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
 
+                    <tbody>
+                      <tr>
+                            <td><span class="code">&lt;table&gt;</span></td>
+                            <td>Table</td>
+                            <td>The wrapper element for all HTML tables.</td>
+                      </tr>
+                      <tr>
+                            <td><span class="code">&lt;thead&gt;</span></td>
+                            <td>Table Head</td>
+                            <td>The set of rows defining the column headers in a table.</td>
+                      </tr>
+                      <tr>
+                            <td><span class="code">&lt;tbody&gt;</span></td>
+                            <td>Table Body</td>
+                            <td>The set of rows containing actual table data.</td>
+                      </tr>
+                      <tr>
+                            <td><span class="code">&lt;tr&gt;</span></td>
+                            <td>Table Row</td>
+                            <td>The table row container.</td>
+                      </tr>
+                      <tr>
+                            <td><span class="code">&lt;td&gt;</span></td>
+                            <td>Table Data</td>
+                            <td>The table row container.</td>
+                      </tr>
+                      <tr>
+                            <td><span class="code">&lt;tfoot&gt;</span></td>
+                            <td>Table Foot</td>
+                            <td>The set of rows defining the footer in a table.</td>
+                      </tr>
+                    </tbody>
+                </table>
             </div>
+
+            <div id="css">
+                <h2>CSS</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Attribute</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="code">colspan</span></td> 
+                            <td>Column Span</td>
+                            <td>Defines how many columns a td element should span.</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">rowspan</span></td>
+                            <td>Row Span</td>
+                            <td>Defines how many rows a td element should span.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
         </div>
+
+
+        <footer>
+            <div class="container">
+                <div class="inf">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <a href="#"><li>Contact Us</li></a>
+                        <a href="#"><li>Portfolio</li></a>
+                        <a href="#"><li>Case Studies</li></a>
+                    </ul>
+                </div>
+                <div class="inf">
+                    <h3>Address</h3>
+                    <ul>
+                        <a href="#"><li>Headquarter/li></a>
+                        <a href="#"><li>Warehouse</li></a>
+                        <a href="#"><li>East Branch</li></a>
+                    </ul>
+                </div>
+                <div class="inf"></div>
+                <h3>Legal</h3>
+                    <ul>
+                        <a href="#"><li>Terms & Conditions</li></a>
+                        <p><small>&copy; Copyright 2022, Pedrambay</small></p>
+                    </ul>
+
+                <div class="social"></div>
+            </div>
+
+        </footer>
+
+        
+        
     </body>
+
 </html>
-
-
-<!-- C:\Users\pedra\Desktop\Project\index.html -->
