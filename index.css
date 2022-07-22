@@ -7,11 +7,20 @@
          url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
          url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
   }
+  html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
 
 body  {
+    
     font-family: monospace;
     width: 100%;
     overflow-x: hidden;
+
 
 }
 header {
@@ -63,6 +72,7 @@ main .container {
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
+    
 
 }
 .intro {
